@@ -1,10 +1,26 @@
-# AI FAQ Triage System
+# AI Powered Support Automation System
 
 ## Overview
 
 #### An automated FAQ triage system built using Flask, Google Gemini, Make.com, Tally Forms, ngrok and Google Sheets.
 
 #### The system receives customer questions from a Tally form, sends them to a Flask API for processing, checks the question against a predefined knowledge base using Gemini, determines whether the question can be answered automatically or requires human review, generates a professional customer support response when possible, and stores all interactions in Google Sheets.
+
+## ❗ Problem It Solves
+
+#### Customer support teams struggle with scaling due to repetitive and unstructured incoming queries:
+
+#### - A large percentage of tickets are repetitive FAQs
+#### - Agents waste time responding to queries that already have known answers
+#### - Complex issues are not efficiently separated from simple ones
+#### - Lack of structured escalation leads to delayed human intervention
+#### - No centralized system to track, categorize, and store support interactions
+
+#### This leads to inefficient support operations and poor response times for customers.
+
+## 💡 Solution
+
+#### This system automates customer support using a knowledge-based AI workflow that classifies, creates a response, and escalates queries intelligently.
 
 ## Screenshots
 
